@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/jpg" href="~/images/40197121_10210444302218746_7460377456080322560_n.jpg" />
+</head>
+<body>
+    <header>
+        <h1>@ViewBag.Title</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="Home" asp-action="gradecalc">Grade Calculator</a></li>
+            </ul>
+        </menu>
+    </header>
+    
+    @RenderBody()
+
+    <footer>Adriana Cottle &Aacute; Co.</footer>
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/JavaScript.js"></script>
+</body>
+</html>

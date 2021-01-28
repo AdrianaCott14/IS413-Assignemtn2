@@ -1,0 +1,25 @@
+﻿
+@{
+
+    ViewBag.Title = "Calculate your Grades";
+}
+
+@*Import the model*@
+@model gradeCalcModel
+<body>
+    <h2>Grade Calculator</h2>
+    <form method="post">
+        <label>Assignments: </label>
+        <input id="assign" asp-for="assignment"/><br />
+        <label>Group Projects: </label>
+        <input id="group" asp-for="groupProject"/><br />
+        <label>Quizzes: </label>
+        <input id="quiz" asp-for="quiz"/><br />
+        <label>Exams: </label>
+        <input id="exam" asp-for="exam"/><br />
+        <label>INTEX: </label>
+        <input id="intex" asp-for="intex"/><br />
+        <input type="submit" value="Submit" id="submitButton" />
+        <div asp-validation-summary="All"></div>
+    </form>
+</body>

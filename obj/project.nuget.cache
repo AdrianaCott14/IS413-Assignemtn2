@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KJGk07n7hXmLnYRmfmlt7IyQ/vuabcMSPhHUVb0fCaw5+AYYtEEnzIVTntOfga7qRkaQynKnIwZ3lrKqzm26nQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\FirstWebApp\\FirstWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adria\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
